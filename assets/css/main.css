@@ -217,6 +217,10 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 	}
+	
+	.container h2 {
+		font-weight: bold;
+	}
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -2575,6 +2579,13 @@ input, select, textarea {
 
 	}
 
+/* Portfolio styling*/
+title_card h3 {
+	vertical-align: middle;
+}
+.title_card img {
+	margin-left: 10px;
+}
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
