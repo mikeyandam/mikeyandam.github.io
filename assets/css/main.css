@@ -1765,6 +1765,20 @@ input, select, textarea {
 			color: #e27689;
 			
 		}
+
+		.project_summary, .project_summary ul{
+			text-align: left;
+			list-style-type: none;
+			font-size: 15px;
+			background-color: #dce3e2;
+			padding-left: 15px;
+		}
+
+		.project_summary li::before{
+			content: "►";
+			padding-right: 10px;
+			color: #e27689;
+		}
 		
 
 
