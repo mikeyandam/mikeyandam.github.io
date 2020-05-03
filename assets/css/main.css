@@ -1766,7 +1766,7 @@ input, select, textarea {
 			
 		}
 
-		.project_summary, .project_summary ul{
+		.project_summary, .project_summary ul, .project_language ul{
 			text-align: left;
 			list-style-type: none;
 			font-size: 15px;
@@ -1778,6 +1778,10 @@ input, select, textarea {
 			content: "►";
 			padding-right: 10px;
 			color: #e27689;
+		}
+
+		.project_language li{
+			list-style-type: none;
 		}
 		
 
